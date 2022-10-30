@@ -1,0 +1,18 @@
+.main{display: flex; flex-direction: column;}
+.background{background: #162129; width: 100%;}
+.tabs{color: #443ccb; width: 100%; font-family: serif;}
+.text{color: #c6c7d0; width: 100%; font-family: serif;}
+.button{background: #443ccb;}
+.info{text-align: center; width: 100%;}
+li{display: inline;}
+li:after{content: " | ";}
+a:link {
+    color: #c6c7d0;
+    background-color: transparent;
+    text-decoration: none;
+  }
+a:visited {
+    color: #443ccb;
+    background-color: transparent;
+    text-decoration: none;
+}
